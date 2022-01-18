@@ -1,1 +1,64 @@
-<p>header works!</p>
+<div class="header py-3">
+    <div class="container">
+        <div class="toggleContainer" (click)="toggleMenu()" [ngClass]="{'change': toggleButton}">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                <div class="logo">
+                    <a routerLink="/home">Sample Test</a>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="nav-center">
+                    <ul>
+                        <li><a routerLink="/home">Home</a></li>
+                        <li><a routerLink="/home">Private clients</a></li>
+                        <li><a routerLink="/home">Corporates</a></li>
+                        <li><a routerLink="/home">Insights</a></li>
+                        <li><a routerLink="/home">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="nav-right">
+                    <ul>
+                        <li><a routerLink="/home">About</a></li>
+                        <li><a routerLink="/home">Careers</a></li>
+                    </ul>
+
+                    <div class="search">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+
+                    <div class="meeting-btn">
+                        <a href="#">Book A metting</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar side" [ngClass]="{'show': sidebar}">
+    <ul>
+        <li><a (click)="toggleMenu()" routerLink="/home">Homepage</a></li>
+        <li><a (click)="toggleMenu()" routerLink="/home">Private clients</a></li>
+        <li><a (click)="toggleMenu()" routerLink="/home">Corporates</a></li>
+        <li><a (click)="toggleMenu()" routerLink="/home">Insights</a></li>
+        <li><a (click)="toggleMenu()" routerLink="/home">Contact</a></li>
+        <li><a (click)="toggleMenu()" routerLink="/home">About</a></li>
+        <li><a (click)="toggleMenu()" routerLink="/home">Careers</a></li>
+
+        <div class="bottom-thing">
+            <a href="tel:+923310337182"><i class="fas fa-question-circle"></i> Need Help ?</a>
+        </div>
+    </ul>
+</div>
+
+<div class="fade-area" [ngClass]="{'show': fadeSection}" (click)="toggleMenu()"></div>

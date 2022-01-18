@@ -1,0 +1,36 @@
+@import '../../../styles.scss';
+
+.slide{
+    .slider{
+        width: 100%;
+        height: 88vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-blend-mode: soft-light;
+        background-color: gray;
+        position: relative;
+        .bottom-left{
+            position: absolute;
+            bottom: 80px;
+            left: 50px;
+            h6{
+                color: $white;
+                font-family: Cormorant;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 38px;
+            }
+            h2{
+                color: $white;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 60px;
+                line-height: 68px;
+            }
+        }
+    }
+}
