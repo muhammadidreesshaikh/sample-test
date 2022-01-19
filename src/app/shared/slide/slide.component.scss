@@ -1,20 +1,17 @@
 @import '../../../styles.scss';
 
 .slide{
-    .slider{
-        width: 100%;
-        height: 88vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-blend-mode: soft-light;
-        background-color: gray;
+    .slide-first{
+        width: 1440px;
+        height: 93vh;
+        left: 0px;
+        top: 0px;
+        background: $black;
         position: relative;
         .bottom-left{
             position: absolute;
-            bottom: 80px;
-            left: 50px;
+            bottom: 50px;
+            left: 100px;
             h6{
                 color: $white;
                 font-family: Cormorant;
@@ -30,6 +27,158 @@
                 font-weight: 300;
                 font-size: 60px;
                 line-height: 68px;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .slide-second{
+        width: 100%;
+        height: 120vh;
+        margin-top: 30px;
+        background: $lightbrown;
+        padding: 30px 0;
+        .top-center{
+            h6{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 35px;
+                line-height: 48px;
+                text-transform: capitalize;
+                padding: 0 10px;
+            }
+        }
+        .main{
+            position: relative;
+            .heading{
+                h1{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 470px;
+                    line-height: 500px;
+                    text-transform: capitalize;
+                    padding-left: 40px;
+                }
+            }
+            .images{
+                .lefts{
+                    position: absolute;
+                    left: -70px;
+                    top: 90px;
+                    img{
+                        width: 630px;
+                        height: 350px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+                .centers{
+                    position: absolute;
+                    right: 380px;
+                    top: 377px;
+                    img{
+                        width: 300px;
+                        height: auto;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+                .rights{
+                    position: absolute;
+                    top: 90px;
+                    right: 35px;
+                    img{
+                        width: 100%;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slide-third{
+        background-color: $darkblue;
+        margin-top: 30px;
+        padding: 30px 0;
+        width: 100%;
+        height: 97vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        position: relative;
+        .top-center{
+            text-align: center;
+            h6{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 35px;
+                text-transform: capitalize;
+                color: $white;
+                padding: 0 15px;
+            }
+        }
+        .center-nav{
+            display: flex;
+            margin-top: 30px;
+           a{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: $white;
+                padding: 0 10px;
+                z-index: 1;
+           }
+        }
+        .heading-center{
+            position: relative;
+            h1{
+                font-family: Cormorant;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 130px;
+                line-height: 168px;
+                color: $white;
+                &.left{
+                    padding-left: 27.25rem;
+                }
+            }
+            .image{
+                transform: rotate(8deg);
+                img{
+                    width: 300px;
+                    height: auto;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-60%, -110%);
+                }
+            }
+        }
+        .bottom-heading{
+            display: flex;
+            margin-top: 20px;
+            h5{
+                background-color: $brown;
+                color: $white;
+                font-size: 13px;
+                border: 1px solid $brown;
+                border-radius: 40px;
+                padding: 20px 11px;
+            }
+            h3{
+                padding: 15px 0px 0px 40px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 38px;
+                color: $white;
             }
         }
     }
