@@ -55,14 +55,14 @@
         background: $lightbrown;
         padding: 30px 0;
         @include respond(mobile) {
-            height: 105vh;
+            height: 115vh;
         }
         .top-center{
             h6{
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 35px;
+                font-size: 30px;
                 line-height: 48px;
                 text-transform: capitalize;
                 padding: 0 10px;
@@ -84,7 +84,7 @@
                     font-family: Poppins;
                     font-style: normal;
                     font-weight: 300;
-                    font-size: 470px;
+                    font-size: 410px;
                     line-height: 500px;
                     text-transform: capitalize;
                     padding-left: 40px;
@@ -167,7 +167,7 @@
         margin-top: 30px;
         padding: 30px 0;
         width: 100%;
-        height: 97vh;
+        height: 99vh;
         background-position: center;
         background-repeat: no-repeat;
         background-position-x: left;
@@ -200,15 +200,15 @@
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 16px;
+                font-size: 15px;
                 line-height: 19px;
                 color: $white;
-                padding: 0 10px;
+                padding: 0 5px;
                 z-index: 1;
                 @include respond(mobile) {
-                    font-size: 17px;
+                    font-size: 15px;
                     line-height: 19px;
-                    padding: 0 12px;
+                    padding: 0 9px;
                 }
            }
         }
@@ -241,7 +241,7 @@
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    transform: translate(-60%, -110%);
+                    transform: translate(-50%, -10%);
                     @include respond(mobile) {
                         width: 200px;
                         transform: translate(-60%, -90%);
@@ -274,12 +274,12 @@
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 30px;
+                font-size: 20px;
                 line-height: 38px;
                 color: $white;
                 @include respond(mobile) {
                     padding: 15px 0px 0px 0px;
-                    font-size: 17px;
+                    font-size: 14px;
                 }
             }
         }
