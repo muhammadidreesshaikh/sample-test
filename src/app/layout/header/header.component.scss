@@ -168,7 +168,7 @@
     }
     &.side {
         position: fixed;
-        // background: $default;
+        background: linear-gradient(60deg, #29323c 0%, #485563 100%);
         color: $white;
         right: -50%;
         top: 0;
@@ -183,7 +183,6 @@
         position: fixed;
         width: 100%;
         height: 100%;
-        background: linear-gradient(60deg, #29323c 0%, #485563 100%);
         color: $white;
         top: -100%;
         z-index: 1;
