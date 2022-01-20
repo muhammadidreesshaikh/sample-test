@@ -2,8 +2,8 @@
 
 .slide{
     .slide-first{
-        width: 1440px;
-        height: 93vh;
+        width: 100%;
+        height: 100vh;
         left: 0px;
         top: 0px;
         background: $black;
@@ -50,14 +50,13 @@
 
     .slide-second{
         width: 100%;
-        height: 120vh;
-        margin-top: 30px;
+        height: 100vh;
         background: $lightbrown;
-        padding: 30px 0;
         @include respond(mobile) {
             height: 115vh;
         }
         .top-center{
+            padding-top: 100px;
             h6{
                 font-family: Poppins;
                 font-style: normal;
@@ -70,7 +69,7 @@
                     font-weight: 600;
                     font-size: 24px;
                     line-height: 30px;
-                    padding-left: 50px;
+                    padding: 60px 0 0 60px;
                     position: absolute;
                     top: 200px;
                     z-index: 1;
@@ -107,7 +106,7 @@
                     @include respond(mobile) {
                         left: 50px;
                         top: 50px;
-                        transform: translate(-50px, -20px);
+                        transform: translate(-50px, -55px);
                     }
                     img{
                         width: 630px;
@@ -164,10 +163,8 @@
 
     .slide-third{
         background-color: $darkblue;
-        margin-top: 30px;
-        padding: 30px 0;
         width: 100%;
-        height: 99vh;
+        height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
         background-position-x: left;
@@ -177,6 +174,7 @@
         }
         .top-center{
             text-align: center;
+            margin-top: 6.25rem;
             h6{
                 font-family: Poppins;
                 font-style: normal;
@@ -218,8 +216,8 @@
                 font-family: Cormorant;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 130px;
-                line-height: 168px;
+                font-size: 120px;
+                line-height: 140px;
                 color: $white;
                 @include respond(mobile) {
                     font-size: 50px;
