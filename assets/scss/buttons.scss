@@ -1,0 +1,17 @@
+.press{
+  color: $white;
+  border: 1px solid $white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 7px 10px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  &:hover{
+      color: $pink;
+      transition: 0.5s;
+      opacity: 0.5s;
+  }
+}

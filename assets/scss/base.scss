@@ -1,0 +1,53 @@
+@import './colours';
+
+body {
+    margin: 0;
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p ,ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-box {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-control {
+    font-size: 15px;
+    border: 1px solid #e7e7e7 !important;
+    height: 45px;
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.main-header-space {
+    position: relative;
+    // top: 55px;
+}
+
+.disable-opacity {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.all-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
